@@ -59,6 +59,8 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 add_message_files(DIRECTORY msg FILES users.msg)
+add_message_files(DIRECTORY msg FILES tfBundle.msg)
+add_message_files(DIRECTORY msg FILES tfBundles.msg)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
